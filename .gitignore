@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+#data folder
+data/*
+
+#don't ignore __init__ file
+!data/__init__.py
